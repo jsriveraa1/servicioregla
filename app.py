@@ -6,6 +6,7 @@ from vistas import VistaReglas
 app = Flask('regla')
 
 
+
 app_context=app.app_context()
 app_context.push()
 cors = CORS(app)
